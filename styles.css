@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
-
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 :root {
     --color1:#EF3742;
@@ -195,7 +196,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/banner2.jpg");
+    background-image: url("images/dark-banner.jpg");
     background-size: cover;
     color: white;
    
