@@ -20,8 +20,9 @@ button {
 
 
 button:hover {
-    background: var(--color2);
+    background: red;
     transition-duration: .7s;
+    cursor: pointer;
 }
 
 
@@ -196,7 +197,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/dark-banner.jpg");
+    background-image: url("images/dark-banner.png");
     background-size: cover;
     color: white;
    
@@ -457,13 +458,14 @@ body {
 
 .pricing-table-header {
     margin-top: 33px;
-    background: var(--color2);
+    background: var(--color1);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 22px;
-    height: 80px;
+   width: 100%;
+   
 
 }
 
@@ -542,7 +544,7 @@ body {
 .section-5 {
     height: 77vh;
     width: 100%;
-    background-image: url("images/sec3background.png");
+    background-image: url("images/image3.png");
     background-size: cover;
     margin-bottom: 240px;
     display: flex;
@@ -777,7 +779,7 @@ legend {
 
 .footer-nav {
     display: flex;
-    width: 320px;
+    width: 620px;
     justify-content: space-between;
     font-size: 17px;
 }
@@ -797,7 +799,7 @@ legend {
 
 
 .social-circle:hover {
-    background: #0d4e80;
+    background: #e44f59;
 }
 
 
